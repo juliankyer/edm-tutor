@@ -1,4 +1,6 @@
-@import url('./App.css');
+@import url('./styles/App.css');
+@import url('./styles/Navigation.css');
+
 
 body {
   margin: 0;
@@ -6,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-.splash {
+.splash-video {
   position: fixed; 
   z-index: -99; 
   width: 100%; 
