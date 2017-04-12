@@ -25,10 +25,8 @@ export default class Video extends Component {
       <div>
         <h1>Video</h1>
         <iframe src={ src } 
-                frameborder='0'
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
+                frameBorder='0'
+                allowFullScreen
                 {...htmlTags}
         />
       </div>
