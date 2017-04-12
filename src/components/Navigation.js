@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const Navigation = () => {
   return (
-    <div className="navigation">
+    <div className="nav-bar">
       <Link to="/"
             className="home-link nav"
             activeClassName="active"
