@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router';
-// import { BrowserRouter, Match } from 'react-router';
 import Video from './Video';
-import Splash from '../data/Splash';
+import houseVideos from '../data/houseVideos'; 
 
-var videos = Splash;
+var videos = houseVideos;
 
-class Main extends Component {
+class Genre extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,8 +27,7 @@ class Main extends Component {
     const { service, video } = videos[this.state.videoIndex];
     return (
       <div>
-      <h1>EDMTut.r</h1>
-      <h3>what moves you?</h3>
+      <h1>House</h1>
       <Video service={service} video={video} width={500} height={270} />
       <p>
         <span>{service}: </span>
@@ -47,4 +44,5 @@ class Main extends Component {
   }
 }
 
-export default Main;
+
+export default Genre;
