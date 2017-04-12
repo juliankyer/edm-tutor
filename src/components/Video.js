@@ -3,10 +3,10 @@ import qs from 'query-string';
 import PropTypes from 'prop-types';
 
 export default class Video extends Component {
-  static propTypes = {
+/*  static propTypes = {
     service: PropTypes.oneOf(['youtube']).isRequired,
     video: PropTypes.string.isRequired
-  };
+  };*/
   
   static urlMap = new Map([['youtube', 'http://youtube.com/embed/']]);
   
