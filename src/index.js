@@ -15,7 +15,6 @@ const Root = () => {
   return (
     <BrowserRouter>
       <div>
-
         <Navigation />
         <Match exactly pattern="/" component={ Main } />
         <Match exactly pattern="/about" component={ About } />

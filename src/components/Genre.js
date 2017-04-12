@@ -25,15 +25,12 @@ class Genre extends Component {
     });
   }
   render() {
-    const { service, video } = videos[this.state.videoIndex];
+    const { service, video, title, artist } = videos[this.state.videoIndex];
     return (
       <div>
       <h1>House</h1>
       <Video service={service} video={video} width={500} height={270} />
-      <p>
-        <span>{service}: </span>
-        <span>{video}: </span>
-      </p>
+      <p>{title} by {artist}</p>
       <button onClick={ this.goToVideo.bind(this, this.state.videoIndex - 1) }>
         Previous
       </button>

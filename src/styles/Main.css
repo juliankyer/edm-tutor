@@ -1,0 +1,28 @@
+.splash-video {
+  position: fixed; 
+  z-index: -99; 
+  width: 100%; 
+  height: 100%
+}
+/*.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+
+.title {
+  background-color: white;
+  margin: 5px;
+  width: 300px;
+}
+
+.splash-title {
+  color: black;
+  font-size: 60px;
+}
+
+.splash-subheading {
+  color: black;
+  font-size: 40px;
+}
