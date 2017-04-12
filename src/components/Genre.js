@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Video from './Video';
+
 import houseVideos from '../data/houseVideos'; 
 
 var videos = houseVideos;

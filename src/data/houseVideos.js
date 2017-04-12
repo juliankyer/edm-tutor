@@ -1,4 +1,4 @@
-var houseVideos = [
+const houseVideos = [
   {
     artist: 'The Chainsmokers and Tritonal',
     title: 'Until You Were Gone',

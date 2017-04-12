@@ -15,11 +15,7 @@ const Root = () => {
   return (
     <BrowserRouter>
       <div>
-        <iframe className="splash-video" frameborder="0" 
-                height="100%" 
-                width="100%" 
-                src="https://youtube.com/embed/LzuHNfzdx4I?autoplay=1&controls=0&showinfo=0&autohide=1">
-        </iframe>
+
         <Navigation />
         <Match exactly pattern="/" component={ Main } />
         <Match exactly pattern="/about" component={ About } />
