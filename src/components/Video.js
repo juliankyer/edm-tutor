@@ -4,10 +4,6 @@ import PropTypes from 'prop-types';
 import Splash from '../data/Splash';
 
 export default class Video extends Component {
-  static propTypes = {
-    service: PropTypes.oneOf(['youtube']).isRequired,
-    video: PropTypes.string.isRequired
-  };
   
   static urlMap = new Map(Splash);
   
@@ -32,4 +28,10 @@ export default class Video extends Component {
       </div>
     );
   }
+
+  static propTypes = {
+    service: PropTypes.oneOf(['youtube']).isRequired,
+    video: PropTypes.string.isRequired
+  };
 }
+
