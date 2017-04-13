@@ -21,3 +21,5 @@ const Learn = () => {
 }
 
 export default Learn;
+
+//on click event for each card that sets state in redux
