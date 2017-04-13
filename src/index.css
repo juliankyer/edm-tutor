@@ -4,6 +4,9 @@
 @import url('./styles/Navigation.css');
 @import url('./styles/Home.css');
 @import url('./styles/Learn.css');
+@import url('./styles/Genre.css');
+@import url('./styles/About.css');
+@import url('./styles/Contact.css');
 
 
 body {

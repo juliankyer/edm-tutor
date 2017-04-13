@@ -7,11 +7,9 @@ const Learn = () => {
   const genreTag = () => {
     return genres.map((category, index) => {
       return (
-        <section className="genreCard" key={category.id}>
-          <Link to={`/learn/${category.link}`} >
-            <h1>{category.genre}</h1>
+          <Link className= "genreCard" to={`/learn/${category.link}`} >
+            <h1 className="genreName">{category.genre}</h1>
           </Link>
-        </section>
       )
     })
   }

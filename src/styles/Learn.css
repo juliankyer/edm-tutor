@@ -2,14 +2,35 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #000000;
+
 }
 
 .genreCard {
   width: 28%;
-  border: 2px solid black;
+  border: 2px solid #c60055;
   margin: 20px;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ff4081;
+  text-decoration: none;
 }
+
+.genreName {
+  color: #ffffff;
+}
+
+.genreCard h1 {
+  font-size: 25px;
+}
+
+/*PALETTE
+#c60055
+#ff79b0
+#ff4081
+#1565c0
+#5e92f3
+#000000
+#ffffff*/
