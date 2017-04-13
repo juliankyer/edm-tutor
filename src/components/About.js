@@ -15,8 +15,7 @@ const About = () => {
       </p> 
       <p className="about-paragraph">
         Finally, a note on listening: we highly recommend listening to EDM through decent headphones or speakers...
-        EDM is naturally bass-heavy, and much of audio range is washed out by your laptop's speakers. And once you find
-        your styles, go see a show in person. Nothing compares.
+        Your crappy laptop speakers wash out half of the sounds that make EDM what it is. Trust us.
       </p>
       <p className="about-paragraph">
         Thanks for listening.
