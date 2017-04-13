@@ -3,12 +3,15 @@ import Genre from '../components/Genre';
 import { genreClicked } from '../actions/actions';
 
 const mapStateToProps = (state) => {
-  return state
+  console.log(state);
+  return state;
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    genreClicked: () => dispatch(genreClicked())
+    genreClicked: (genre) => {
+      dispatch(genreClicked(genre));
+    }
   }
 }
 

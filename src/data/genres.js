@@ -8,7 +8,7 @@ import electroVideos from './electroVideos';
 import moombahtonVideos from './moombahtonVideos';
 import wildcardsVideos from './wildcardsVideos';
 
-const genres = [{ id: 1, 
+const genres =  [{ id: 1, 
                   genre: 'House', 
                   link: 'house', 
                   videos: houseVideos,

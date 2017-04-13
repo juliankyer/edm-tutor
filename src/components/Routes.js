@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Match, Miss } from 'react-router';
+import { Match, Miss } from 'react-router';
 
 import Home from './Home';
 import Learn from './Learn';

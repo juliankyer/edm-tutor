@@ -1,6 +1,6 @@
 export const genreClicked = (genre) => {
   return {
-    type: 'GENRE_CLICKED',
+    type: 'CLICK_GENRE',
     genre
   }
 }

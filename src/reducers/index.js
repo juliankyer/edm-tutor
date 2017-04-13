@@ -1,10 +1,9 @@
 import { combineReducers } from 'redux';
-import { routerReducer } from 'react-router-redux';
 
-import genreReducer from './Genre';
+import targetGenre from './target-genre';
 
 const rootReducer = combineReducers({
-  genres: genreReducer
+  targetGenre
 });
 
 export default rootReducer;
