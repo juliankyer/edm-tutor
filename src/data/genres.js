@@ -36,7 +36,7 @@ const genres = [{ id: 1,
                   genre: 'Hardstyle', 
                   link: 'hardstyle', 
                   videos: hardstyleVideos,
-                  description: 'Are you imagining a Dutch person on a pogo-stick?'
+                  description: 'Are you imagining a Dutch person on a pogo-stick playing Mario Kart?'
                 }, 
                 { id: 6, 
                   genre: 'Trap', 
@@ -48,7 +48,7 @@ const genres = [{ id: 1,
                   genre: 'Electro', 
                   link: 'electro', 
                   videos: electroVideos,
-                  description: 'Synth-heavy.'
+                  description: 'Synth-heavy with funk roots.'
                 }, 
                 { id: 8, 
                   genre: 'Moombahton', 

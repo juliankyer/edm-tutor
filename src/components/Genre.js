@@ -30,7 +30,7 @@ class Genre extends Component {
     
     return (
       <div className="genreWrapper">
-        <h1>House</h1>
+        <h1>{genres[0].genre}</h1>
         <Video service={service} video={video} width={700} height={350} />
         <div className="genre-description">
           <h4>"{title}" by {artist}</h4>

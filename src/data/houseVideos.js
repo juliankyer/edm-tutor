@@ -39,7 +39,7 @@ const houseVideos = [
     artist: 'Avicii',
     title: 'Broken Arrows',
     service: 'youtube',
-    video: 'https://www.youtube.com/user/AviciiOfficialVEVO'
+    video: 'https://www.youtube.com/watch?v=V6iKSUoUN48'
   }
 ];
 
