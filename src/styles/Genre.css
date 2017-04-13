@@ -10,15 +10,28 @@
 .genreWrapper h1 {
   color: #ffffff;
   font-size: 25px;
-  margin: 40px 20px 25px;
+  margin: 30px 20px 20px;
 }
 
-
-.genreWrapper p {
+.genre-description h4 {
   font-family: 'Raleway';
-  font-size: 18px;
-  margin: 18px;
+  font-size: 22px;
+  margin: 5px;
   color: #ffffff;
+}
+
+.genre-description p {
+  font-family: 'Raleway';
+  font-size: 17px;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.genre-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 10px 15px;
 }
 
 .button-wrapper button {
