@@ -7,7 +7,7 @@ const Learn = () => {
   const genreTag = () => {
     return genres.map((category, index) => {
       return (
-          <Link className="genreCard" to={`/learn/${category.link}`} >
+          <Link className="genreCard" to={`/learn/${category.link}`} key={category.id}>
             <h1 className="genreName">{category.genre}</h1>
           </Link>
       )
