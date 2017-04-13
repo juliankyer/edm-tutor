@@ -7,15 +7,16 @@ const Learn = () => {
   const genreTag = () => {
     return genres.map((category, index) => {
       return (
-        <Link to={`/learn/${category.link}`} key={category.id}>
-          <h1>{category.genre}</h1>
-        </Link>
+        <section className="genreCard" key={category.id}>
+          <Link to={`/learn/${category.link}`} >
+            <h1>{category.genre}</h1>
+          </Link>
+        </section>
       )
     })
   }
   return (
-    <div>
-      <h1>Pick a genre</h1>
+    <div className="genreBox">
       { genreTag() }
     </div>
   )

@@ -1,0 +1,15 @@
+.genreBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.genreCard {
+  width: 28%;
+  border: 2px solid black;
+  margin: 20px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

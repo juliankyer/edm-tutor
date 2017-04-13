@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Match, Miss } from 'react-router';
 
-import Main from './components/Main';
+import Home from './components/Home';
 import Learn from './components/Learn';
 import Genre from './components/Genre';
 import About from './components/About';
@@ -16,7 +16,7 @@ const Root = () => {
     <BrowserRouter>
       <div>
         <Navigation />
-        <Match exactly pattern="/" component={ Main } />
+        <Match exactly pattern="/" component={ Home } />
         <Match exactly pattern="/about" component={ About } />
         <Match exactly pattern="/contact" component={ Contact } />
         <Match exactly pattern="/learn" component={ Learn } />
