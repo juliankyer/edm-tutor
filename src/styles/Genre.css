@@ -1,0 +1,62 @@
+.genreWrapper {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.genreWrapper h1 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 30px 20px 20px;
+}
+
+.genre-description h4 {
+  font-family: 'Raleway';
+  font-size: 22px;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.genre-description p {
+  font-family: 'Raleway';
+  font-size: 17px;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.genre-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 10px 15px;
+}
+
+.button-wrapper button {
+  text-decoration: none;
+  border: none;
+  margin: 5px 10px;
+  background-color: #1565c0;
+  color: #ffffff;
+  /*border: 2px solid #5e92f3;*/
+  text-decoration: none;
+  margin: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.love-button {
+  background-color: #000000;
+}
+
+
+/*PALETTE
+#c60055
+#ff79b0
+#ff4081
+#1565c0
+#5e92f3
+#000000
+#ffffff*/

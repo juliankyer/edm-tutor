@@ -1,7 +1,25 @@
-@import url('./App.css');
+@import url('./styles/reset.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Rock+Salt');
+@import url('./styles/App.css');
+@import url('./styles/Navigation.css');
+@import url('./styles/Home.css');
+@import url('./styles/Learn.css');
+@import url('./styles/Genre.css');
+@import url('./styles/About.css');
+@import url('./styles/Contact.css');
+
 
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: black;
 }
+
+h1, h3 {
+  font-family: 'Rock Salt';
+}
+
+
