@@ -1,29 +1,22 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter, Match, Miss } from 'react-router';
+import { BrowserRouter } from 'react-router';
+import { Provider } from 'react-redux';
 
-import Home from './components/Home';
-import Learn from './components/Learn';
-import Genre from './components/Genre';
-import About from './components/About';
-import Contact from './components/Contact';
-import NotFound from './components/NotFound';
-import Navigation from './components/Navigation';
+import configureStore from './store';
+
+import Routes from './components/Routes';
 import './index.css';
+
+const store = configureStore();
 
 const Root = () => {
   return (
-    <BrowserRouter>
-      <div>
-        <Navigation />
-        <Match exactly pattern="/" component={ Home } />
-        <Match exactly pattern="/about" component={ About } />
-        <Match exactly pattern="/contact" component={ Contact } />
-        <Match exactly pattern="/learn" component={ Learn } />
-        <Match exactly pattern="/learn/:genre" component={ Genre } />
-        <Miss component={ NotFound } />
-      </div>
-    </BrowserRouter>
+    <Provider store={ store }>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </Provider>
   )
 }
 
