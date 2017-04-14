@@ -1,4 +1,3 @@
-import genres from '../data/genres';
 
 const targetGenre = (state='', action) => {
   switch (action.type) {
