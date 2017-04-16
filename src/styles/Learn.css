@@ -3,28 +3,25 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #000000;
-
+  margin-top: 80px;
 }
 
 .genreCard {
-  width: 28%;
-  border: 2px solid #c60055;
-  margin: 20px;
-  height: 150px;
+  width: 220px;
+  height: 115px;
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff4081;
+  background-image: linear-gradient(#ff4081, #5e92f3);
   text-decoration: none;
 }
 
 .genreName {
   color: #ffffff;
+  font-size: 20px;
 }
 
-.genreCard h1 {
-  font-size: 25px;
-}
 
 /*PALETTE
 #c60055

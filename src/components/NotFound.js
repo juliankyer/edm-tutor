@@ -1,9 +1,13 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const NotFound = () => {
   return (
     <div>
-      <h1>You cannot go one more deeper</h1>
+      <Navigation />
+      <div className="not-found">
+        <h1>There is no deep house party here</h1>
+      </div>
     </div>
   );
 }

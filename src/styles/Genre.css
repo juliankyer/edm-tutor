@@ -1,4 +1,4 @@
-.genreWrapper {
+.genre-wrapper {
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -7,10 +7,10 @@
   height: 100vh;
 }
 
-.genreWrapper h1 {
+.genre-header {
   color: #ffffff;
   font-size: 25px;
-  margin: 30px 20px 20px;
+  margin: 40px 20px 5px;
 }
 
 .genre-description h4 {
@@ -34,13 +34,13 @@
   margin: 24px 10px 15px;
 }
 
-.button-wrapper button {
+.change-vid {
   text-decoration: none;
   border: none;
   margin: 5px 10px;
-  background-color: #1565c0;
+  background-image: linear-gradient(#1565c0, #5e92f3);
   color: #ffffff;
-  /*border: 2px solid #5e92f3;*/
+  border: 2px solid #5e92f3;
   text-decoration: none;
   margin: 8px;
   padding: 5px 10px;
@@ -48,7 +48,19 @@
 }
 
 .love-button {
-  background-color: #000000;
+  background-color: transparent;
+  background-image: url('./images/lightblue-heart.svg');
+  background-size: 100% 100%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin: 0px 8px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 

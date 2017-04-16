@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import genres from '../data/genres';
+import Navigation from './Navigation';
 
 const Learn = () => {
-
   const genreTag = () => {
     return genres.map((category, index) => {
       return (
@@ -11,15 +11,16 @@ const Learn = () => {
             <h1 className="genreName">{category.genre}</h1>
           </Link>
       )
-    })
+    });
   }
   return (
-    <div className="genreBox">
-      { genreTag() }
+    <div>
+      <Navigation />
+      <div className="genreBox">
+        { genreTag() }
+      </div>
     </div>
   )
 }
 
 export default Learn;
-
-//on click event for each card that sets state in redux

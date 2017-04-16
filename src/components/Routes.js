@@ -7,12 +7,10 @@ import GenreContainer from '../containers/GenreContainer';
 import About from './About';
 import Contact from './Contact';
 import NotFound from './NotFound';
-import Navigation from './Navigation';
 
 const Routes = () => {
   return (
     <div>
-      <Navigation />
       <Match exactly pattern="/" component={ Home } />
       <Match exactly pattern="/about" component={ About } />
       <Match exactly pattern="/contact" component={ Contact } />
