@@ -30,3 +30,16 @@ Why not just do something like state.data = action.payload.body.data? Back when 
 
 mapStateToProps store -> data -> container
 mapDispatchToProps container -> data -> store
+
+
+// goToVideo(index) {
+//   let videoIndex = index;
+//   if (videoIndex < 0) {
+//     videoIndex = videoIndex.length - 1;
+//   } else if (videoIndex >= this.state.videos.length) {
+//     videoIndex = 0;
+//   }
+//   this.setState({
+//     videoIndex
+//   });
+// }

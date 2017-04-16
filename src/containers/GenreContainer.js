@@ -1,18 +1,14 @@
 import { connect } from 'react-redux';
 import Genre from '../components/Genre';
-import { genreClicked } from '../actions/actions';
+import * as actionCreators from '../actions/actions';
+import { bindActionCreators } from 'redux';
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return state;
 }
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-    genreClicked: (genre) => {
-      dispatch(genreClicked(genre));
-    }
-  }
+  return bindActionCreators(actionCreators, dispatch);
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Genre);
