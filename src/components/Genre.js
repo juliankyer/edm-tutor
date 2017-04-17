@@ -20,11 +20,11 @@ class Genre extends Component {
     this.setState({videos})
   }
   
-  goToVideo(index) {
+  goToVideo(index) {    
     let videoIndex = index;
     if (videoIndex < 0) {
-      videoIndex = videoIndex.length - 1;
-    } else if (videoIndex >= this.state.videos.length) {
+      videoIndex = this.state.videos[0].videos.length - 1;
+    } else if (videoIndex >= this.state.videos[0].videos.length) {
       videoIndex = 0;
     }
     this.setState({
@@ -40,9 +40,11 @@ class Genre extends Component {
     this.getVideos();
   }
   
+  
   render() {
     const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
     const description = this.state.videos[0].description;
+    console.log(this.state.videos[0].videos);
     return (
       <div className="genre-wrapper">
         <Navigation />
@@ -53,10 +55,10 @@ class Genre extends Component {
           <p>{description}</p>
         </div>
         <div className="button-wrapper">
-          <button className="change-vid" onClick={ () => this.props.previousVideo(this.state.videoIndex) }>
+          <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex - 1) }>
             Previous
           </button>
-          <button className="change-vid" onClick={ () => this.props.nextVideo(this.state.videoIndex) }>
+          <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex + 1) }>
             Next
           </button>
           <button className="love-button"></button>
