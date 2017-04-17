@@ -22,9 +22,10 @@ class Genre extends Component {
   
   goToVideo(index) {    
     let videoIndex = index;
+    let videosLength = this.state.videos[0].videos.length;
     if (videoIndex < 0) {
-      videoIndex = this.state.videos[0].videos.length - 1;
-    } else if (videoIndex >= this.state.videos[0].videos.length) {
+      videoIndex = videosLength - 1;
+    } else if (videoIndex >= videosLength) {
       videoIndex = 0;
     }
     this.setState({
@@ -44,7 +45,6 @@ class Genre extends Component {
   render() {
     const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
     const description = this.state.videos[0].description;
-    console.log(this.state.videos[0].videos);
     return (
       <div className="genre-wrapper">
         <Navigation />
