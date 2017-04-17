@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const About = () => {
   return (
     <div className="about-wrapper">
-      <h1>About</h1>
+      <Navigation />
+
+      <h1 className="about-header">About</h1>
       <p className="about-paragraph">EDMTut.r is designed to be a quick introduction to Electronic Dance Music. EDM is like wine, there are a lot of variables to deal with,
          and the best way to decide what you like is to absorb variety. We want to expose you to a range of sounds with brief descriptions,
          and let you fill in the rest.

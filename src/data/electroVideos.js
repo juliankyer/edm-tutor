@@ -1,7 +1,7 @@
 const electroVideos = [
   {
     artist: 'Dada Life',
-    title: 'happy Violence',
+    title: 'Happy Violence',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=e0AD3w67_-o'  
   },

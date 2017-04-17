@@ -1,9 +1,11 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <h1>Contact</h1>
+      <Navigation />
+      <h1 className="contact-header">Contact</h1>
       <p>Think we messed up somewhere?</p>
       <p>Want to see something included?</p>
       <p>Send us a note!</p>

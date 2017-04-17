@@ -3,8 +3,8 @@ import { Link } from 'react-router';
 
 const Navigation = () => {
   return (
-
     <div className="navigation">
+      
       <Link to="/"
         className="title"
         >
@@ -12,14 +12,14 @@ const Navigation = () => {
         <h3 className="splash-subheading">-what moves you?</h3>
       </Link>
       
-      
       <div className="nav-links">
         <Link to="/learn"
-          className="learn-link nav"
+          className="learn-link nav tick"
           activeClassName="active"
           >
           Learn
         </Link>
+        
         <Link to="/about"
           className="about-link nav"
           activeClassName="active"
@@ -33,6 +33,7 @@ const Navigation = () => {
           Contact
         </Link>
       </div>
+      
     </div>
   );
 }

@@ -1,13 +1,12 @@
 @import url('./styles/reset.css');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Rock+Salt');
-@import url('./styles/App.css');
 @import url('./styles/Navigation.css');
 @import url('./styles/Home.css');
 @import url('./styles/Learn.css');
 @import url('./styles/Genre.css');
 @import url('./styles/About.css');
 @import url('./styles/Contact.css');
-
+@import url('./styles/NotFound.css');
 
 body {
   height: 100%;
