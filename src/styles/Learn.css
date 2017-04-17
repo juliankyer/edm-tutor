@@ -19,6 +19,10 @@
   text-decoration: none;
 }
 
+.genre-card:hover {
+  background-image: linear-gradient(#c60055, #1565c0);
+}
+
 .genreName {
   color: #ffffff;
   font-size: 20px;

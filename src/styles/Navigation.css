@@ -8,12 +8,18 @@
 }
 
 .nav {
-  background-color: #1565c0;
   background-image: linear-gradient(#1565c0, #5e92f3);
+  border: 2px solid #5e92f3;
+
   color: #ffffff;
   text-decoration: none;
   margin: 8px;
   padding: 5px 10px;
+}
+
+.nav:hover {
+  background-image: linear-gradient(#c60055, #ff4081);
+  border: 2px solid #c60055;
 }
 
 .nav-links {
@@ -43,6 +49,8 @@
 
 .active {
   background-image: linear-gradient(#ff4081, #ff79b0);
+  border: 2px solid #ff79b0;
+
 }
 
 
