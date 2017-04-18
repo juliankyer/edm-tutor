@@ -41,6 +41,10 @@ class Genre extends Component {
     this.getVideos();
   }
   
+  loveHandle(video, title, artist) {
+    console.log(video, title, artist)
+  }
+  
   
   render() {
     const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
@@ -61,7 +65,7 @@ class Genre extends Component {
           <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex + 1) }>
             Next
           </button>
-          <button className="love-button"></button>
+          <button onClick={ () => this.loveHandle(video, title, artist) } className="love-button"></button>
         </div>
       </div>
     );

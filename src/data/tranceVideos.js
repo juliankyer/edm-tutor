@@ -6,16 +6,22 @@ const tranceVideos = [
     video: 'https://www.youtube.com/watch?v=9oj1FTuscnY&list=PL71067954340BBA04&index=4'
   },
   {
-    artist: 'Tiësto',
-    title: 'Adagio for Strings',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=kzUqhw_yymM&list=PLaWhWwGJV7oMFuWd2Ok9nuaQzjAAos2aI&index=7'
-  },
-  {
     artist: 'Armin van Buuren',
     title: 'Falling In and Out of Love',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=TxvpctgU_s8&list=RDQMXBzN8VmAKsQ'
+  },
+  {
+    artist: 'Above & Beyond',
+    title: 'Sun and Moon',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=ll5ykbAumD4'
+  },
+  {
+    artist: 'Tiësto',
+    title: 'Adagio for Strings',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=kzUqhw_yymM&list=PLaWhWwGJV7oMFuWd2Ok9nuaQzjAAos2aI&index=7'
   },
   {
     artist: 'Chicane',
@@ -28,12 +34,6 @@ const tranceVideos = [
     title: 'In Your Eyes',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=MPS_gZ4HsHo'
-  },
-  {
-    artist: 'Above & Beyond',
-    title: 'Sun and Moon',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=ll5ykbAumD4'
   },
   {
     artist: 'W&W',
