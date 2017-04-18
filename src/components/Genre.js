@@ -48,6 +48,7 @@ class Genre extends Component {
     
     return (
       <div className="genre-wrapper">
+        
         <Navigation />
         <h1 className="genre-header">{this.state.videos[0].genre}</h1>
         <Video service={service} video={video} width={700} height={370} />
@@ -65,6 +66,7 @@ class Genre extends Component {
           </button>
           <button onClick={ () => this.props.loveHandle(title, artist, video) } className="love-button" />
         </div>
+        
       </div>
     );
   }
