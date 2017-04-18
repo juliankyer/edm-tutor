@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import Navigation from './Navigation';
 
 class Favorites extends Component {

@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 const Navigation = () => {
   return (
     <div className="navigation">
-      
       <Link to="/"
         className="title"
         >
@@ -41,7 +40,6 @@ const Navigation = () => {
           Contact
         </Link>
       </div>
-      
     </div>
   );
 }

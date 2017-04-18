@@ -1,7 +1,8 @@
-import { connect } from 'react-redux';
-import Favorites from '../components/Favorites';
 import *as actionCreators from '../actions/actions';
 import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import Favorites from '../components/Favorites';
 
 const mapStateToProps = (state) => {
   return { favorites: state.loveHandle }

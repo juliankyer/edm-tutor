@@ -1,13 +1,13 @@
 import React from 'react';
 import { Match, Miss } from 'react-router';
 
-import Home from './Home';
-import Learn from './Learn';
-import GenreContainer from '../containers/GenreContainer';
 import About from './About';
 import Contact from './Contact';
-import NotFound from './NotFound';
 import FavoritesContainer from '../containers/FavoritesContainer';
+import GenreContainer from '../containers/GenreContainer';
+import Home from './Home';
+import Learn from './Learn';
+import NotFound from './NotFound';
 
 const Routes = () => {
   return (

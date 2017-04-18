@@ -1,7 +1,8 @@
-import { connect } from 'react-redux';
-import Genre from '../components/Genre';
 import * as actionCreators from '../actions/actions';
 import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import Genre from '../components/Genre';
 
 const mapStateToProps = (state) => {
   return state;
