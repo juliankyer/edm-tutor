@@ -12,16 +12,16 @@ const moombahtonVideos = [
     video: 'https://www.youtube.com/watch?v=lWzdORxIbNk&list=RDQM3nFvvBaRPts&index=7'
   },
   {
-    artist: 'Afrojack',
-    title: 'Beat Down by Steve Aoki',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=tac9mPZH_gg&list=RDQM3nFvvBaRPts&index=27'
-  },
-  {
     artist: 'Major Lazer & DJ Snake',
     title: 'Lean On',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=YqeW9_5kURI&index=30&list=RDQM3nFvvBaRPts'
+  },
+  {
+    artist: 'Afrojack',
+    title: 'Beat Down by Steve Aoki',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=tac9mPZH_gg&list=RDQM3nFvvBaRPts&index=27'
   },
   {
     artist: 'Aluna George',

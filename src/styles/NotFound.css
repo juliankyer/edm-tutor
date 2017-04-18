@@ -8,35 +8,5 @@
 .not-found h1 {
   color: #ffffff;
   font-size: 30px;
-  -webkit-animation:colorchange 10s infinite alternate;
+  -webkit-animation:colorchange 20s infinite alternate;
 }
-
-@-webkit-keyframes colorchange {
-     0% {
-       color: #c60055;
-     }
-     12% {
-       color: #ff4081;
-     }
-     26% {
-       color: #FFFFFF;
-     }
-     40% {
-       color: #1565c0;
-     }
-     48% {
-       color: #003c8f;
-     }
-     60% {
-       color: #1565c0;
-     }
-     72% {
-       color: #FFFFFF;
-     }
-     88% {
-       color: #ff4081;
-     }
-     100% {
-       color:#FFFFFF;
-     }
-   }

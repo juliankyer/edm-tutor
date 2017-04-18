@@ -18,16 +18,16 @@ const dubstepVideos = [
     video: 'https://www.youtube.com/watch?v=llDikI2hTtk'
   },
   {
-    artist: 'Flux Pavilion',
-    title: 'I Can\'t Stop',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=3Q9rewnLFYw'
-  },
-  {
     artist: 'Knife Party',
     title: 'Bonfire',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=e-IWRmpefzE&list=RDQMalFwGqv6X5I&index=6'
+  },
+  {
+    artist: 'Flux Pavilion',
+    title: 'I Can\'t Stop',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=3Q9rewnLFYw'
   },
   {
     artist: 'Adventure Club',

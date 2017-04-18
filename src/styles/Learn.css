@@ -19,17 +19,12 @@
   text-decoration: none;
 }
 
+.genre-card:hover {
+  background-image: linear-gradient(#c60055, #1565c0);
+}
+
 .genreName {
   color: #ffffff;
   font-size: 20px;
 }
 
-
-/*PALETTE
-#c60055
-#ff79b0
-#ff4081
-#1565c0
-#5e92f3
-#000000
-#ffffff*/

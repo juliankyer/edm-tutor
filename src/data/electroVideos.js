@@ -1,17 +1,5 @@
 const electroVideos = [
   {
-    artist: 'Dada Life',
-    title: 'Happy Violence',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=e0AD3w67_-o'  
-  },
-  {
-    artist: 'Justice',
-    title: 'D.A.N.C.E.',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=sy1dYFGkPUE'  
-  },
-  {
     artist: 'The Knife',
     title: 'Heartbeats',
     service: 'youtube',
@@ -28,6 +16,18 @@ const electroVideos = [
     title: 'Giorgio by Moroder',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=zhl-Cs1-sG4&list=PLcdN8reXV1kyF2mzYDoC5tDi0K2NpCU-G&index=3'
+  },
+  {
+    artist: 'Justice',
+    title: 'D.A.N.C.E.',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=sy1dYFGkPUE'  
+  },
+  {
+    artist: 'Dada Life',
+    title: 'Happy Violence',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=e0AD3w67_-o'  
   },
   {
     artist: 'The Bloody Beetroots',

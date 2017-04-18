@@ -1,0 +1,57 @@
+.error-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+}
+
+.fav-error {
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+.error-card h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.fav-header {
+  font-size: 35px;
+  margin: 50px 40px 40px;
+}
+
+.favorite-card {
+  margin: 20px 40px 30px;
+  width: 600px;
+}
+
+.fav-p-wrapper {
+  margin: 30px 20px;
+}
+
+.fav-p-wrapper p {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Rock Salt", sans-serif;
+  line-height: 150%;
+}
+
+.fav {
+  color: #dcdcdc;
+}
+
+
+.favorite-card h3 {
+  font-size: 20px;
+}
+
+.favorite-card h4 {
+  font-size: 17px;
+  font-family: "Rock Salt", sans-serif;
+  line-height: 130%;
+  margin: 10px 0px;
+}
+
+.favorite-card a {
+  text-decoration: none;
+}

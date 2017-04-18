@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router';
 import { Provider } from 'react-redux';
-
 import configureStore from './store';
 
 import Routes from './components/Routes';
@@ -21,13 +20,3 @@ const Root = () => {
 }
 
 render(<Root />, document.getElementById('root'));
-
-
-
-//match params to throw in an id
-
-
-
-
-
-

@@ -18,27 +18,19 @@
   margin: 3px;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-  margin-top: 15px;
+.contact {
+  background-image: linear-gradient(#1565c0, #5e92f3);
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 25px;
 }
 
-.contact-form input {
-  font-size: 16px;
-  margin: 8px;
-}
-
-.email-body {
-  height: 150px;
+.contact:hover {
+  background-image: linear-gradient(#ff4081, #ff79b0);
 }
 
 .submit-button {
   text-decoration: none;
   border: none;
-  background-image: linear-gradient(#1565c0, #5e92f3);
-  color: #ffffff;
-  margin: 8px;
-  padding: 5px 10px;
 }

@@ -10,20 +10,21 @@
 .genre-header {
   color: #ffffff;
   font-size: 25px;
-  margin: 40px 20px 5px;
+  margin: 40px 20px 15px;
+  padding: 5px;
 }
 
 .genre-description h4 {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   margin: 5px;
   color: #ffffff;
 }
 
 .genre-description p {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
-  margin: 5px;
+  margin: 8px;
   color: #ffffff;
 }
 
@@ -31,20 +32,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 24px 10px 15px;
+  margin: 24px 10px 30px;
 }
 
 .change-vid {
   text-decoration: none;
   border: none;
-  margin: 5px 10px;
+  margin: 10px 10px;
   background-image: linear-gradient(#1565c0, #5e92f3);
   color: #ffffff;
   border: 2px solid #5e92f3;
   text-decoration: none;
   margin: 8px;
-  padding: 5px 10px;
+  padding: 3px 10px;
   font-size: 14px;
+  width: 80px;
+}
+
+.change-vid:hover {
+  background-image: linear-gradient(#c60055, #ff4081);
+  border: 2px solid #c60055;
 }
 
 .love-button {
@@ -57,18 +64,17 @@
   margin: 0px 8px;
 }
 
+.love-button:hover {
+  background-image: url('./images/lightpink-heart.svg');
+}
+
+.love-button-active {
+  background-image: url('./images/darkpink-heart.svg');
+}
+
 .button-wrapper {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
-
-
-/*PALETTE
-#c60055
-#ff79b0
-#ff4081
-#1565c0
-#5e92f3
-#000000
-#ffffff*/

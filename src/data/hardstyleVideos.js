@@ -1,11 +1,5 @@
 const hardstyleVideos = [
   {
-    artist: 'Showtek',
-    title: 'Bad',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=oC-GflRB0y4&list=PLAI10vIrC928jRIKji3nLoDXlwoS3bVZE'
-  },
-  {
     artist: 'Headhunterz',
     title: 'Colors',
     service: 'youtube',
@@ -18,6 +12,24 @@ const hardstyleVideos = [
     video: 'https://www.youtube.com/watch?v=ZiY1kkYPODM&index=3&list=PLI6i2zzCGjttRefOqrGaHSW6j74x_46oz'
   },
   {
+    artist: 'Blasterjaxx & DBSTF',
+    title: 'Beautiful World',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=ka6HFK7dYtA&list=PLmdmPCCyvrhm6nTt3GBAFef-PrJgVcMzj'
+  },
+  {
+    artist: 'Showtek',
+    title: 'Bad',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=oC-GflRB0y4&list=PLAI10vIrC928jRIKji3nLoDXlwoS3bVZE'
+  },
+  {
+    artist: 'The Prophet',
+    title: 'One Moment',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=a7tNRq8ac3c'
+  },
+  {
     artist: 'Technoboy',
     title: 'Mellow',
     service: 'youtube',
@@ -28,18 +40,6 @@ const hardstyleVideos = [
     title: 'We Come and Go',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=k8qgeGON_zM&list=PLptachkly-u0b9tF8Bf4wwsE_8zY7d3oH&index=2'
-  },
-  {
-    artist: 'The Prophet',
-    title: 'One Moment',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=a7tNRq8ac3c'
-  },
-  {
-    artist: 'Blasterjaxx & DBSTF',
-    title: 'Beautiful World',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=ka6HFK7dYtA&list=PLmdmPCCyvrhm6nTt3GBAFef-PrJgVcMzj'
   }
 ];
 

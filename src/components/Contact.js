@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Navigation from './Navigation';
 
 const Contact = () => {
@@ -8,13 +9,7 @@ const Contact = () => {
       <h1 className="contact-header">Contact</h1>
       <p>Think we messed up somewhere?</p>
       <p>Want to see something included?</p>
-      <p>Send us a note!</p>
-      <form className="contact-form">
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <input className="email-body" type="text" placeholder="Message" />
-        <input className="submit-button" type="submit" />
-      </form>
+      <a className="contact" href="mailto:julian.kyer@gmail.com?subject=EDM%20Tut.r"><p>Send us a note!</p></a>
     </div>
   )
 }

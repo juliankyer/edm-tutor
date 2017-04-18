@@ -18,12 +18,6 @@ const drumAndBassVideos = [
     video: 'https://www.youtube.com/watch?v=8RVKLcaIAE8'
   },
   {
-    artist: 'High Maintenance',
-    title: 'Keep You Down',
-    service: 'youtube',
-    video: 'https://www.youtube.com/watch?v=e3O4hSC-LPU'
-  },
-  {
     artist: 'Netsky',
     title: 'Come Alive',
     service: 'youtube',
@@ -40,6 +34,12 @@ const drumAndBassVideos = [
     title: 'Nobody to Love',
     service: 'youtube',
     video: 'https://www.youtube.com/watch?v=KD5fLb-WgBU&list=PL0P09vVCAJ0ruBhRBZnV14XHmZ1M-Ayhh&index=3'
+  },
+  {
+    artist: 'High Maintenance',
+    title: 'Keep You Down',
+    service: 'youtube',
+    video: 'https://www.youtube.com/watch?v=e3O4hSC-LPU'
   }
 ];
 

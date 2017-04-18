@@ -6,6 +6,7 @@
 @import url('./styles/Genre.css');
 @import url('./styles/About.css');
 @import url('./styles/Contact.css');
+@import url('./styles/Favorites.css');
 @import url('./styles/NotFound.css');
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 h1, h3 {
-  font-family: 'Rock Salt';
+  font-family: 'Rock Salt', sans-serif;
 }
 
 
