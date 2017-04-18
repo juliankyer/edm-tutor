@@ -13,7 +13,7 @@ export default class Video extends Component {
   
   render() {
     const { service, video, ...htmlTags } = this.props;
-    const src = `https://youtube.com/embed/${this.getId(video)}?autoplay=1&loop=0&controls=0&showinfo=0&autohide=1`;
+    const src = `https://youtube.com/embed/${this.getId(video)}?autoplay=0&controls=0&showinfo=0&autohide=1`;
     return(
       <div>
         <iframe src={ src } 

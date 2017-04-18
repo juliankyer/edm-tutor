@@ -5,3 +5,13 @@ export const genreClicked = (genre) => {
   }
 }
 
+export const loveHandle = (title, artist, video) => {
+  console.log('love-action');
+  return {
+    type: 'LOVE_HANDLE',
+    title,
+    artist,
+    video
+  }
+}
+

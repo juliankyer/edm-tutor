@@ -20,12 +20,20 @@ const Navigation = () => {
           Learn
         </Link>
         
+        <Link to="/favorites"
+          className="favs-link nav"
+          activeClassName="active"
+          >
+          Favorites
+        </Link>
+        
         <Link to="/about"
           className="about-link nav"
           activeClassName="active"
           >
           About
         </Link>
+        
         <Link to="/contact"
           className="contact-link nav"
           activeClassName="active"

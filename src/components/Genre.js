@@ -41,11 +41,6 @@ class Genre extends Component {
     this.getVideos();
   }
   
-  loveHandle(video, title, artist) {
-    console.log(video, title, artist)
-  }
-  
-  
   render() {
     const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
     const description = this.state.videos[0].description;
@@ -56,7 +51,7 @@ class Genre extends Component {
         <Video service={service} video={video} width={700} height={350} />
         <div className="genre-description">
           <h4>"{title}" by {artist}</h4>
-          <p>{description}</p>
+          <p className="description-p">{description}</p>
         </div>
         <div className="button-wrapper">
           <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex - 1) }>
@@ -65,7 +60,7 @@ class Genre extends Component {
           <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex + 1) }>
             Next
           </button>
-          <button onClick={ () => this.loveHandle(video, title, artist) } className="love-button"></button>
+          <button onClick={ () => this.props.loveHandle(title, artist, video) } className="love-button"></button>
         </div>
       </div>
     );
