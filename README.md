@@ -47,8 +47,11 @@ First, I know. Autoplay. It's on purpose.
  to be doing, which is wait until PRs are closed and things get updated
  
 -Heroku? GH Pages? Firebase?
+
 -Eject? 
+
 --Maybe that helps some of the testing problems???
+
 --Brenna and I talked about publishing on Heroku, but it seems like you need
   a back-end to push to Heroku. When I tried pushing to Heroku, I got a 503 error, 
   which means the site's server isn't available right now. I don't have a server.

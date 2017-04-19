@@ -21,8 +21,7 @@ class Genre extends Component {
     this.setState({videos})
   }
   
-  goToVideo(index) {    
-    let videoIndex = index;
+  goToVideo(videoIndex) {    
     let videosLength = this.state.videos[0].videos.length;
     if (videoIndex < 0) {
       videoIndex = videosLength - 1;
