@@ -9,14 +9,14 @@
 
 .genre-header {
   color: #ffffff;
-  font-size: 25px;
-  margin: 40px 20px 15px;
+  font-size: 22px;
+  margin: 50px 20px 5px;
   padding: 5px;
 }
 
 .genre-description h4 {
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   margin: 5px;
   color: #ffffff;
 }
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 24px 10px 30px;
+  margin: 0px 10px 30px;
 }
 
 .change-vid {
