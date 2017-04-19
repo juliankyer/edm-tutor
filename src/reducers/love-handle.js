@@ -1,5 +1,4 @@
 const loveHandle = (state=[], action) => {
-  console.log(action)
   switch (action.type) {
     case 'LOVE_HANDLE':
       return [...state, {
