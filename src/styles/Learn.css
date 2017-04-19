@@ -3,9 +3,8 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #000000;
-  margin-top: 80px;
   max-width: 880px;
-  margin: 30px auto;
+  margin: 50px auto 30px;
 }
 
 .genre-card {
