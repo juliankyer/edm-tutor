@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-
+import ReactTestUtils from 'react-dom/test-utils';
 import Navigation from './Navigation';
 
 class Favorites extends Component {
+  
   checkForFavorites() {
-    if(!this.props.favorites.length) {
+    if(this.props.favorites.length < 1) {
       return (
         <div className="error-card">
           <h3 className="fav fav-error">It's a little mello around here...</h3>
