@@ -1,7 +1,6 @@
 .navigation {
   background-image: linear-gradient(#2e3131, #000000);
   margin-bottom: 15px;
-  padding: 0px 20px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -39,7 +38,7 @@
 }
 
 .splash-title {
-  font-size: 35px;
+  font-size: 32px;
   margin-top: 25px;
 }
 
