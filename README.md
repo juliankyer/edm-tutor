@@ -20,7 +20,7 @@ Below are some notes, mostly for me. The markdown below will be updated as the a
 First, I know. Autoplay. It's on purpose.
 
 ##### Testing:
-* I want to keep testing this app, but 1/5 nights not being an all-nighter === my brain is fucked
+* I want to keep testing this app
 
 * How do you test Router?
 
