@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 
 import Navigation from './Navigation';
 import Video from './Video';
@@ -44,7 +45,6 @@ class Genre extends Component {
   checkForFavorites(song) {
     const favCheck = this.props.favorites.filter(favorite => favorite.id === song.id);
     if (favCheck.length) {
-      console.log('its in favs');
       return this.props.removeFav(song);
     }
     this.props.loveHandle(song);
@@ -53,7 +53,13 @@ class Genre extends Component {
   render() {
     const description = this.state.videos[0].description;
     const song = this.state.videos[0].videos[this.state.videoIndex];
-    console.log(song.id);
+    const check = this.props.favorites.filter(favorite => favorite.id === song.id);
+    
+    const buttonClasses = classNames({
+      'love-button': true,
+      'favorited-song': check.length
+    })
+    
     return (
       <div className="genre-wrapper">
         
@@ -72,7 +78,7 @@ class Genre extends Component {
           <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex + 1) }>
             Next
           </button>
-          <button onClick={ () => this.checkForFavorites(song) } className="love-button" />
+          <button onClick={ () => this.checkForFavorites(song) } className={ buttonClasses } />
         </div>
         
       </div>
