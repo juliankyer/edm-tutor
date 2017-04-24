@@ -65,7 +65,7 @@
   background-image: url('./images/lightpink-heart.svg');
 }
 
-.love-button-active {
+.favorited-song {
   background-image: url('./images/darkpink-heart.svg');
 }
 
