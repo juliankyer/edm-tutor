@@ -41,18 +41,23 @@ class Genre extends Component {
     this.getVideos();
   }
   
+  checkForFavorites() {
+    const 
+  }
+  
   render() {
-    const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
+    // const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
     const description = this.state.videos[0].description;
+    const song = this.state.videos[0].videos[this.state.videoIndex];
     
     return (
       <div className="genre-wrapper">
         
         <Navigation />
         <h1 className="genre-header">{this.state.videos[0].genre}</h1>
-        <Video service={service} video={video} width={700} height={370} />
+        <Video service={song.service} video={song.video} width={700} height={370} />
         <div className="genre-description">
-          <h4>"{title}" by {artist}</h4>
+          <h4>"{song.title}" by {song.artist}</h4>
           <p className="description-p">{description}</p>
         </div>
         
@@ -63,7 +68,7 @@ class Genre extends Component {
           <button className="change-vid" onClick={ this.goToVideo.bind(this, this.state.videoIndex + 1) }>
             Next
           </button>
-          <button onClick={ () => this.props.loveHandle(title, artist, video) } className="love-button" />
+          <button onClick={ () => this.props.loveHandle(song) } className="love-button" />
         </div>
         
       </div>
