@@ -45,7 +45,7 @@ class Genre extends Component {
     const favCheck = this.props.favorites.filter(favorite => favorite.id === song.id);
     if (favCheck.length) {
       console.log('its in favs');
-      this.props.removeFav(song);
+      return this.props.removeFav(song);
     }
     this.props.loveHandle(song);
   }
