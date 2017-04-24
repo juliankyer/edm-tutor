@@ -27,7 +27,7 @@ class Favorites extends Component {
           { this.props.favorites.length && <h1 className="fav fav-header">My favorite songs</h1>}
           { this.props.favorites.map((favorite, i) =>
             <div className="fav favorite-card" key={i}>
-              <a href={favorite.video}>
+              <a href={favorite.video} target="_blank">
                 <h3 className="fav">{favorite.artist}</h3>
                 <h4 className="fav">{favorite.song}</h4>
               </a>
