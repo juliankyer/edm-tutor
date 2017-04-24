@@ -41,9 +41,9 @@ class Genre extends Component {
     this.getVideos();
   }
   
-  checkForFavorites() {
-    const 
-  }
+  // checkForFavorites() {
+  //   const 
+  // }
   
   render() {
     // const { service, video, title, artist } = this.state.videos[0].videos[this.state.videoIndex];
