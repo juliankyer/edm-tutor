@@ -5,7 +5,6 @@ export const genreClicked = (genre) => {
   }
 }
 
-
 export const loveHandle = (song) => {
   return {
     type: 'LOVE_HANDLE',

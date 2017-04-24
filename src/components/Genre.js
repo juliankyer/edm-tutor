@@ -58,7 +58,7 @@ class Genre extends Component {
     const buttonClasses = classNames({
       'love-button': true,
       'favorited-song': check.length
-    })
+    });
     
     return (
       <div className="genre-wrapper">

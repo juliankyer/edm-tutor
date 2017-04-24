@@ -12,7 +12,7 @@ const genres =  [{ id: 1,
                   genre: 'House', 
                   link: 'house', 
                   videos: houseVideos,
-                  description: '4/4 beat? Are you saying "boots and pants?" Probably house.'
+                  description: '4/4 beat? Are you saying "boots and cats?" Probably house.'
                 }, 
                 { id: 2, 
                   genre: 'Trance', 
