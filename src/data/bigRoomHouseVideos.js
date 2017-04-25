@@ -1,17 +1,17 @@
 const bigRoomHouseVideos = [
   {
-    artist: 'Tujamo',
-    title: 'Drop That Low (When I Dip)',
-    service: 'youtube',
-    id: 1101,
-    video: 'https://www.youtube.com/watch?v=souJM4aCk6w'
-  },
-  {
     artist: 'Tiesto & The Chainsmokers',
     title: 'Split',
     service: 'youtube',
-    id: 1102,
+    id: 1101,
     video: 'https://www.youtube.com/watch?v=klIF0nhsxxM'
+  },
+  {
+    artist: 'Tujamo',
+    title: 'Drop That Low (When I Dip)',
+    service: 'youtube',
+    id: 1102,
+    video: 'https://www.youtube.com/watch?v=souJM4aCk6w'
   },
   {
     artist: 'Borgeous',
