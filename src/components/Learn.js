@@ -5,6 +5,7 @@ import genres from '../data/genres';
 import Navigation from './Navigation';
 
 const Learn = () => {
+  
   const genreTag = () => {
     return genres.map((category, index) => {
       return (
@@ -14,6 +15,7 @@ const Learn = () => {
       )
     });
   }
+  
   return (
     <div>
       <Navigation />
