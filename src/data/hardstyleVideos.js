@@ -21,11 +21,11 @@ const hardstyleVideos = [
     video: 'https://www.youtube.com/watch?v=ka6HFK7dYtA&list=PLmdmPCCyvrhm6nTt3GBAFef-PrJgVcMzj'
   },
   {
-    artist: 'Showtek',
-    title: 'Bad',
+    artist: 'W&W and Headhunterz',
+    title: 'We Control the Sound',
     service: 'youtube',
     id: 304,
-    video: 'https://www.youtube.com/watch?v=oC-GflRB0y4&list=PLAI10vIrC928jRIKji3nLoDXlwoS3bVZE'
+    video: 'https://www.youtube.com/watch?v=MTwGvNGZPKA'
   },
   {
     artist: 'The Prophet',
