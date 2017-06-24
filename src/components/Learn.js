@@ -13,7 +13,7 @@ const Learn = () => {
           <h1 className="genreName">{category.genre}</h1>
         </Link>
       )
-    });
+    })
   }
   
   return (
