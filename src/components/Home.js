@@ -11,6 +11,7 @@ const Home = () => {
         <div className="enter-logo">
           <h1>EDMTut.r</h1>
           <h3>-what moves you?</h3>
+          <p>enter here</p>
         </div>
         <iframe className="splash-video" 
           frameBorder="0" 
